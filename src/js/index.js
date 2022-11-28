@@ -14,10 +14,7 @@ setInterval (() => {
     ReactDOM.render(<SecondCounter  seconds={counter}/>, document.querySelector("#app"));
     counter++;
 
-    if (arr.lenght = 1 ){
-        
-    }
-}, 1000);
+    }, 1000);
 
 //render your react application
 

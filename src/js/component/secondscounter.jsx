@@ -3,11 +3,13 @@ import React from "react";
 
 const SecondCounter = (props) => {
     
+    let arr = Number(props.seconds);
+    console.log(typeof(arr));
     
      
     return (
         <div className="counter container text-center">
-            <p> {props.seconds} </p>
+            <p> {arr} </p>
         </div>
     );
     
