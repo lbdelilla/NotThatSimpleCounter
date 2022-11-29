@@ -1,32 +1,20 @@
 
-.watch {
+.clock{
     color:white;
-    height: 80px;
-    width: 80px;
-    margin: 40px;
-}
+    font-size: 80px;
+    margin: 40px 0px 30px 250px;
 
-span {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 48px;   
-    color: white;
 }
 
 .title{
+    float: right;
+    margin: 45px 230px 0px 30px; 
+}
+
+span, .title {
     font-family: 'Orbitron', sans-serif;
     font-size: 48px;   
     color: white;
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-.mycard{
-    display: flex;
-}
-.container {
-    height: fit-content;
-   
 }
 
 .counter {
@@ -34,7 +22,6 @@ span {
 }
 body{
     background-image: url(https://www.ejiltalk.org/wp-content/uploads/2021/03/pexels-photo-110854.jpeg);
-    background-size: no-repeat; 
     background-size: cover;
     
     background-color: black ;
