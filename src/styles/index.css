@@ -1,18 +1,41 @@
 
 .watch {
     color:white;
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     margin: 40px;
 }
 
-p {
-    display: flex;
-    justify-content: center;
-    margin-top: 30%;
-    color: red;
+span {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;   
+    color: white;
 }
 
+.title{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;   
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.mycard{
+    display: flex;
+}
+.container {
+    height: fit-content;
+   
+}
+
+.counter {
+    margin-top: 150px;
+}
 body{
-    background-color: black;
+    background-image: url(https://www.ejiltalk.org/wp-content/uploads/2021/03/pexels-photo-110854.jpeg);
+    background-size: no-repeat; 
+    background-size: cover;
+    
+    background-color: black ;
 }
