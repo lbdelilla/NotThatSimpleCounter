@@ -45,7 +45,9 @@ const SecondCounter = (props) => {
                             <span>{arr[arr.length-1]} </span>
                         </div>
                     </div>
+
                 </div>
+              
             </div>
         </div>
     );

@@ -2,13 +2,13 @@
 .clock{
     color:white;
     font-size: 80px;
-    margin: 40px 0px 30px 250px;
+    margin: 40px 0px 30px 480px;
 
 }
 
 .title{
     float: right;
-    margin: 45px 230px 0px 30px; 
+    margin: 45px 450px 0px 30px; 
 }
 
 span, .title {
@@ -25,4 +25,9 @@ body{
     background-size: cover;
     
     background-color: black ;
+}
+
+button{
+ margin: 30px 5px 5px 5px;
+ 
 }
